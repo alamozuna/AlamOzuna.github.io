@@ -66,11 +66,11 @@ export default function HeroSection() {
           className="flex flex-wrap items-center justify-center gap-4"
         >
           <a 
-            href="mailto:alam_ozuna@outlook.com"
+            href="#"
             className="flex items-center gap-2 px-6 py-3 rounded-full glass-azure text-azure-100 hover:bg-azure-500/20 transition-all duration-300 group"
           >
             <Mail className="w-4 h-4" />
-            <span>alam_ozuna@outlook.com</span>
+            <span>Contact Me</span>
             <ChevronRight className="w-4 h-4 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
           </a>
           <a 
