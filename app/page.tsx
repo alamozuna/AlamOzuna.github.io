@@ -17,6 +17,22 @@ const projects = [
     githubUrl: "https://github.com/alamozuna/Alam-Ozuna-s-Portfolio/blob/main/Adventure%20Work%20Dashboard(Excel%20Project(Alam%20Ozuna).xlsm"
   },
   {
+    title: "Financial Overview & P&L Dashboard",
+    category: "Power BI" as const,
+    image: "/financial-dashboard.png",
+    description: "A comprehensive financial intelligence dashboard featuring a P&L Summary, Budget vs. Actuals Variance Analysis, and Cashflow & Client Profitability metrics. It tracks $886K+ in revenue, $537K+ gross profit, and visualizes cash flow dynamics with inflow/outflow trends and client-level profitability tracking.",
+    tools: ["Power BI", "DAX", "Financial Modeling", "Variance Analysis", "Cashflow Tracking"],
+    githubUrl: "https://github.com/alamozuna/Alam-Ozuna-s-Portfolio/blob/main/Financial%20Dashboard%20-%20Portfolio.pdf"
+  },
+  {
+    title: "Property Management Operational Report",
+    category: "Power BI" as const,
+    image: "/operative-report.png",
+    description: "An operational intelligence dashboard designed for property managers to track support services and maintenance incidents across multiple properties in Madrid and Barcelona. It details total service volume (35 services), average incident response/resolution time (90 minutes), and distribution of requests by city, service type, and time slot.",
+    tools: ["Power BI", "DAX", "Operational Analytics", "Incident Response", "Service Optimization"],
+    githubUrl: "https://github.com/alamozuna/Alam-Ozuna-s-Portfolio/blob/main/Operative%20Report%20for%20Property%20Manager.pdf"
+  },
+  {
     title: "Amazon Sales Analysis",
     category: "Excel" as const,
     image: "/amazon-sales.jpeg",
@@ -47,22 +63,6 @@ const projects = [
     description: "What does the data profession actually look like from the inside? This Power BI dashboard analyzes real survey responses from data professionals, covering topics like salary distribution, job satisfaction, preferred technologies, and career paths. The project leverages DAX measures, multi-table relationships, and the Innovate theme for a polished, professional look. It's both a technical demonstration of Power BI's modeling capabilities and a genuinely interesting snapshot of the data industry landscape.",
     tools: ["Power BI", "DAX", "Data Modeling", "Survey Analysis"],
     githubUrl: "https://github.com/alamozuna/Alam-Ozuna-s-Portfolio/blob/main/Data%20Professional%20Survey%20Dashboard(Portfolio%20Project)(Alam%20Ozuna).pbix"
-  },
-  {
-    title: "Financial Overview & P&L Dashboard",
-    category: "Power BI" as const,
-    image: "/financial-dashboard.png",
-    description: "A comprehensive financial intelligence dashboard featuring a P&L Summary, Budget vs. Actuals Variance Analysis, and Cashflow & Client Profitability metrics. It tracks $886K+ in revenue, $537K+ gross profit, and visualizes cash flow dynamics with inflow/outflow trends and client-level profitability tracking.",
-    tools: ["Power BI", "DAX", "Financial Modeling", "Variance Analysis", "Cashflow Tracking"],
-    githubUrl: "https://github.com/alamozuna/Alam-Ozuna-s-Portfolio/blob/main/Financial%20Dashboard%20-%20Portfolio.pdf"
-  },
-  {
-    title: "Property Management Operational Report",
-    category: "Power BI" as const,
-    image: "/operative-report.png",
-    description: "An operational intelligence dashboard designed for property managers to track support services and maintenance incidents across multiple properties in Madrid and Barcelona. It details total service volume (35 services), average incident response/resolution time (90 minutes), and distribution of requests by city, service type, and time slot.",
-    tools: ["Power BI", "DAX", "Operational Analytics", "Incident Response", "Service Optimization"],
-    githubUrl: "https://github.com/alamozuna/Alam-Ozuna-s-Portfolio/blob/main/Operative%20Report%20for%20Property%20Manager.pdf"
   }
 ];
 
